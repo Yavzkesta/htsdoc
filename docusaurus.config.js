@@ -109,14 +109,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Doc',
-                to: '/docs/intro',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
             ],
           },
         ],
