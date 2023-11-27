@@ -111,7 +111,7 @@ const config = {
             items: [
               {
                 label: 'Doc',
-                to: '/docs',
+                to: '/docs/intro',
               },
               {
                 label: 'GitHub',
