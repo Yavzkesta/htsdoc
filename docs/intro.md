@@ -1,47 +1,56 @@
 ---
+id: home
+title: Bienvenue sur HebergeTonServ
+slug: /
 sidebar_position: 1
 ---
+# Centre de Connaissances HébergeTonServ
 
-# Tutorial Intro
+Bienvenue dans le Centre de Connaissances HébergeTonServ, votre source d'informations dédiée à l'hébergement de serveurs de jeux et aux services connexes. Que vous soyez un débutant total dans le monde des serveurs de jeux ou un administrateur expérimenté, notre base de connaissances est là pour vous guider à travers les complexités de l'hébergement de serveurs, la configuration des jeux, et bien plus encore.
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Pourquoi Notre Centre de Connaissances ?
 
-## Getting Started
+- **Informations à jour** : Nous nous efforçons de maintenir nos guides et articles à jour avec les dernières informations et meilleures pratiques.
+- **Diversité des Sujets** : De la mise en place d'un serveur Minecraft à la gestion d'un serveur VPS, nous couvrons une large gamme de sujets.
+- **Conseils d'Experts** : Bénéficiez de conseils et astuces provenant de professionnels expérimentés dans l'hébergement de serveurs de jeux.
 
-Get started by **creating a new site**.
+## Explorer Nos Ressources
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- **Guides de Démarrage** : Parfait pour ceux qui débutent dans l'hébergement de serveurs de jeux.
+- **Tutoriels Avancés** : Des tutoriels détaillés pour ceux qui souhaitent approfondir leurs connaissances techniques.
+- **FAQs** : Réponses aux questions fréquemment posées pour vous aider à résoudre les problèmes courants.
 
-### What you'll need
+Nous espérons que vous trouverez les ressources de notre Centre de Connaissances utiles et informatives. Si vous avez des questions ou besoin d'assistance supplémentaire, n'hésitez pas à contacter notre équipe de support.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+# Nos Offres de Jeux et Services
 
-## Generate a new site
+Chez HébergeTonServ, nous proposons une gamme variée de serveurs de jeux et de services d'hébergement. Choisissez l'offre qui correspond à vos besoins et commencez votre aventure de jeu sans plus attendre.
 
-Generate a new Docusaurus site using the **classic template**.
+## Serveurs de Jeux
 
-The classic template will automatically be added to your project after you run the command:
+Explorez nos différentes offres de serveurs de jeux :
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+- [Hébergeur FiveM (Serveur GTA RP)](https://hebergtonserv.com/fivem)
+- [Hébergeur Ark](https://hebergtonserv.com/offres/ark) - *Prochainement disponible*
+- [Hébergeur Avorion](https://hebergtonserv.com/offres/avorion)
+- [Hébergement Eco](https://hebergtonserv.com/offres/eco)
+- [Hébergeur Factorio](https://hebergtonserv.com/offres/factorio) - *Prochainement disponible*
+- [Hébergeur Garry's Mod](https://hebergtonserv.com/offres/gmod)
+- [Serveur NovaLife](https://hebergtonserv.com/offres/novalife)
+- [Hébergeur Project Zomboid](https://hebergtonserv.com/offres/projectzomboid)
+- [Hébergeur Sons Of The Forest](https://hebergtonserv.com/offres/sonsoftheforest)
+- [Hébergeur Terraria](https://hebergtonserv.com/offres/terraria) - *Prochainement disponible*
+- [Hébergeur Valheim](https://hebergtonserv.com/offres/valheim)
+- [Hébergeur Vintage Story](https://hebergtonserv.com/offres/vintage)
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Autres Services d'Hébergement
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Nous offrons également divers services d'hébergement pour répondre à tous vos besoins :
 
-## Start your site
+- [Hébergement Cloud Bot](https://hebergtonserv.com/offres/bot-hosting)
+- [Hébergement VPS (Serveur Privé Virtuel)](https://hebergtonserv.com/offres/virtual-private-server)
+- [Hébergement Web](https://hebergtonserv.com/offres/web-hosting)
 
-Run the development server:
+---
 
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Nous nous engageons à fournir des solutions d'hébergement de qualité pour les jeux et les services web. N'hésitez pas à explorer nos différentes offres et à choisir celle qui convient le mieux à vos besoins.
