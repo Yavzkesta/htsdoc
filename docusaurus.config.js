@@ -74,7 +74,6 @@ const config = {
             position: 'left',
             label: 'test',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'localeDropdown',
             position: 'right',
