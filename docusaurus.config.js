@@ -31,7 +31,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'fr',
-    locales: ['fr', 'en'],
+    locales: ['fr'],
   },
 
   presets: [
@@ -72,19 +72,18 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'test',
+            label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            href: 'https://hebergtonserv.com',
+            label: 'Siteweb',
+            position: 'right',
+          },
+
           {
             type: 'localeDropdown',
             position: 'right',
           },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-
         ],
       },
       footer: {
@@ -94,38 +93,38 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'documentation',
+                to: '/',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Hebergtonserv',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Siteweb',
+                href: 'https://hebergtonserv.com',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discordapp.com/invite/hebergtonserv',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/hebergtonserv',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Magasin',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Fivem',
+                href: 'https://hebergtonserv.com/fivem',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Minecraft',
+                href: 'https://hebergtonserv.com/offre/minecraft',
               },
             ],
           },
@@ -135,6 +134,10 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      colorMode: {
+        defaultMode: "dark",
+        disableSwitch: true,
       },
     }),
 };
