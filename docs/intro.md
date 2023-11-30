@@ -4,6 +4,7 @@ title: Bienvenue sur HebergeTonServ
 slug: /
 sidebar_position: 1
 ---
+
 # Centre de Connaissances HébergeTonServ
 
 Bienvenue dans le Centre de Connaissances HébergeTonServ, votre source d'informations dédiée à l'hébergement de serveurs de jeux et aux services connexes. Que vous soyez un débutant total dans le monde des serveurs de jeux ou un administrateur expérimenté, notre base de connaissances est là pour vous guider à travers les complexités de l'hébergement de serveurs, la configuration des jeux, et bien plus encore.
@@ -31,15 +32,15 @@ Chez HébergeTonServ, nous proposons une gamme variée de serveurs de jeux et de
 Explorez nos différentes offres de serveurs de jeux :
 
 - [Hébergeur FiveM (Serveur GTA RP)](https://hebergtonserv.com/fivem)
-- [Hébergeur Ark](https://hebergtonserv.com/offres/ark) - *Prochainement disponible*
+- [Hébergeur Ark](https://hebergtonserv.com/offres/ark) - _Prochainement disponible_
 - [Hébergeur Avorion](https://hebergtonserv.com/offres/avorion)
 - [Hébergement Eco](https://hebergtonserv.com/offres/eco)
-- [Hébergeur Factorio](https://hebergtonserv.com/offres/factorio) - *Prochainement disponible*
+- [Hébergeur Factorio](https://hebergtonserv.com/offres/factorio) - _Prochainement disponible_
 - [Hébergeur Garry's Mod](https://hebergtonserv.com/offres/gmod)
 - [Serveur NovaLife](https://hebergtonserv.com/offres/novalife)
 - [Hébergeur Project Zomboid](https://hebergtonserv.com/offres/projectzomboid)
 - [Hébergeur Sons Of The Forest](https://hebergtonserv.com/offres/sonsoftheforest)
-- [Hébergeur Terraria](https://hebergtonserv.com/offres/terraria) - *Prochainement disponible*
+- [Hébergeur Terraria](https://hebergtonserv.com/offres/terraria) - _Prochainement disponible_
 - [Hébergeur Valheim](https://hebergtonserv.com/offres/valheim)
 - [Hébergeur Vintage Story](https://hebergtonserv.com/offres/vintage)
 
