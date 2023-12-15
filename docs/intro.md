@@ -1,13 +1,13 @@
 ---
 id: home
-title: Bienvenue sur HebergeTonServ
+title: Bienvenue sur HebergTonServ
 slug: /
 sidebar_position: 1
 ---
 
-# Centre de Connaissances HébergeTonServ
+# Centre de Connaissances HebergTonServ
 
-Bienvenue dans le Centre de Connaissances HébergeTonServ, votre source d'informations dédiée à l'hébergement de serveurs de jeux et aux services connexes. Que vous soyez un débutant total dans le monde des serveurs de jeux ou un administrateur expérimenté, notre base de connaissances est là pour vous guider à travers les complexités de l'hébergement de serveurs, la configuration des jeux, et bien plus encore.
+Bienvenue dans le Centre de Connaissances HebergTonServ, votre source d'informations dédiée à l'hébergement de serveurs de jeux et aux services connexes. Que vous soyez un débutant total dans le monde des serveurs de jeux ou un administrateur expérimenté, notre base de connaissances est là pour vous guider à travers les complexités de l'hébergement de serveurs, la configuration des jeux, et bien plus encore.
 
 ## Pourquoi Notre Centre de Connaissances ?
 
@@ -25,7 +25,7 @@ Nous espérons que vous trouverez les ressources de notre Centre de Connaissance
 
 # Nos Offres de Jeux et Services
 
-Chez HébergeTonServ, nous proposons une gamme variée de serveurs de jeux et de services d'hébergement. Choisissez l'offre qui correspond à vos besoins et commencez votre aventure de jeu sans plus attendre.
+Chez HebergTonServ, nous proposons une gamme variée de serveurs de jeux et de services d'hébergement. Choisissez l'offre qui correspond à vos besoins et commencez votre aventure de jeu sans plus attendre.
 
 ## Serveurs de Jeux
 
