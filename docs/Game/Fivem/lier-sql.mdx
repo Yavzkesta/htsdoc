@@ -1,0 +1,14 @@
+# Comment lier sont serveur à une base de donnée SQL
+Pour établir une connexion sql avec votre serveur, il faut d'abord modifier le fichier server.cfg.
+
+Dans le fichier server.cfg, cherchez la ligne qui commence par "set mysql_connection_string". Cette ligne permet de définir les informations de connexion à la base de données.
+
+Mettez à jour la valeur de "mysql_connection_string" en fournissant les informations nécessaires, telles que le serveur, la base de données, l'identifiant de l'utilisateur et le mot de passe. Vous pouvez le faire en modifiant la ligne "set mysql_connection_string" pour qu'elle ressemble à ceci:
+
+set mysql_connection_string "server=IP_PHP_SANS_PORTS;database=NOM;userid=NOM_UTILISATEUR_PHP;password=MOT_DE_PASSE_PHP"
+
+Les valeurs "IP_PHP_SANS_PORTS", "NOM", "NOM_UTILISATEUR_PHP" et "MOT_DE_PASSE_PHP" doivent être remplacées par les informations appropriées que vous trouvez dans le panneau de contrôle de votre hébergeur.
+
+En suivant ces étapes, vous pourrez établir une connexion sql propre et facile à lire.
+
+
