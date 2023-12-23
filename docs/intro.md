@@ -22,7 +22,9 @@ sidebar_position: 1
 - **Tutoriels Avancés** : Des tutoriels détaillés pour ceux qui souhaitent approfondir leurs connaissances techniques.
 - **FAQs** : Réponses aux questions fréquemment posées pour vous aider à résoudre les problèmes courants.
 
-Nous espérons que vous trouverez les ressources de notre Centre de Connaissances utiles et informatives. Si vous avez des questions ou besoin d'assistance supplémentaire, n'hésitez pas à contacter notre équipe de support.
+:::danger Nous espérons que vous trouverez les ressources de notre Centre de Connaissances utiles et informatives. Si vous avez des questions ou besoin d'assistance supplémentaire, n'hésitez pas à contacter notre équipe de support.
+
+:::
 
 # Nos Offres de Jeux et Services
 
