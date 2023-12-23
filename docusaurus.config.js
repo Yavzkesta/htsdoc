@@ -62,9 +62,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/logo.webp',
       navbar: {
-        title: 'Hebergtonserv Doc',
+        title: 'HebergTonServ Doc',
         logo: {
-          alt: 'Hebergtonserv Logo',
+          alt: 'HebergTonServ Logo',
           src: 'img/logo.webp',
         },
         items: [
@@ -99,7 +99,7 @@ const config = {
             ],
           },
           {
-            title: 'Hebergtonserv',
+            title: 'HebergTonServ',
             items: [
               {
                 label: 'Siteweb',
@@ -129,7 +129,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} HebrergTonserv.com`,
+        copyright: `Copyright © ${new Date().getFullYear()} HebergTonserv.com`,
       },
       prism: {
         theme: prismThemes.github,
