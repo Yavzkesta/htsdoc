@@ -6,9 +6,9 @@ sidebar_position: 1
 ---
 
 # Centre de Connaissances HebergTonServ
-:::tip Information
+:::tip Bienvenue dans le Centre de Connaissances HebergTonServ, votre source d'informations dédiée à l'hébergement de serveurs de jeux et aux services connexes. Que vous soyez un débutant total dans le monde des serveurs de jeux ou un administrateur expérimenté, notre base de connaissances est là pour vous guider à travers les complexités de l'hébergement de serveurs, la configuration des jeux, et bien plus encore.
 :::
-Bienvenue dans le Centre de Connaissances HebergTonServ, votre source d'informations dédiée à l'hébergement de serveurs de jeux et aux services connexes. Que vous soyez un débutant total dans le monde des serveurs de jeux ou un administrateur expérimenté, notre base de connaissances est là pour vous guider à travers les complexités de l'hébergement de serveurs, la configuration des jeux, et bien plus encore.
+
 
 ## Pourquoi Notre Centre de Connaissances ?
 
