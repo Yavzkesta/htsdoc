@@ -1,36 +1,41 @@
 ---
 sidebar_position: 2
+title: Connexion MySQL pour un Serveur FiveM
+
 ---
 
-# Connexion à PHPMyAdmin avec une chaîne de connexion MySQL mise à jour
+# Configuration de la Chaîne de Connexion MySQL pour un Serveur FiveM
 
-Cette page fournit des instructions sur la manière de se connecter à PHPMyAdmin en utilisant une chaîne de connexion MySQL mise à jour, compatible avec `oxmysql` et `mysql-async`.
+Cette page fournit des instructions sur la mise à jour de la chaîne de connexion MySQL pour être compatible avec `oxmysql` et `mysql-async`, utilisée spécifiquement pour configurer un serveur FiveM.
 
 ## Chaîne de Connexion Obsolète
 
-La chaîne de connexion suivante est maintenant obsolète pour `oxmysql` :
+La chaîne de connexion suivante est désormais obsolète pour `oxmysql` :
 
 ```text
 set mysql_connection_string "server=IP_PHP_SANS_PORTS;database=NOM;userid=NOM_UTILISATEUR_PHP;password=MOT_DE_PASSE_PHP"
 ```
 
-Ce format peut ne pas fonctionner avec les dernières versions de `oxmysql` et devrait être mis à jour.
+Ce format peut ne pas fonctionner avec les dernières versions de `oxmysql` et nécessite une mise à jour.
 
 ## Chaîne de Connexion Mise à Jour
 
-Pour la compatibilité avec `oxmysql` et `mysql-async`, utilisez le format de chaîne de connexion suivant :
+Pour la compatibilité avec `oxmysql` et `mysql-async`, utilisez la chaîne de connexion suivante :
 
 ```text
 set mysql_connection_string "mysql://NOM_UTILISATEUR_PHP:MOT_DE_PASSE_PHP@IP_PHP_SANS_PORTS/NOM?charset=utf8mb4"
 ```
 
-Remplacez `NOM_UTILISATEUR_PHP` par votre nom d'utilisateur MySQL, `MOT_DE_PASSE_PHP` par votre mot de passe MySQL (assurez-vous qu'il ne contient pas de '@'), `IP_PHP_SANS_PORTS` par l'adresse IP de votre serveur MySQL, et `NOM` par le nom de votre base de données.
+Remplacez `NOM_UTILISATEUR_PHP`, `MOT_DE_PASSE_PHP`, `IP_PHP_SANS_PORTS`, et `NOM` avec vos propres informations. Assurez-vous que le mot de passe ne contient pas de '@'.
 
-## Ressources
+## Utilisation pour Serveur FiveM
 
-Pour plus de conseils, référez-vous aux ressources suivantes :
+- Ajoutez cette chaîne dans le fichier `server.cfg` de votre serveur FiveM pour la connexion à la base de données.
 
-- Vidéo Exemple : [Connexion à PHPMyAdmin](https://www.twitch.tv/videos/1553873661)
-- Image Exemple : ![Configuration de la Connexion](https://cdn.discordapp.com/attachments/904885146468106280/1016760495103025185/sql_connect.png)
+## Test de la Connexion
 
-N'oubliez pas de manipuler vos identifiants de base de données de manière sécurisée et de tester la connexion après avoir effectué ces changements.
+- Après avoir mis à jour la configuration, redémarrez votre serveur FiveM pour appliquer les changements.
+- Vérifiez que votre serveur FiveM peut se connecter correctement à la base de données MySQL.
+- En cas de problème, revérifiez les informations de connexion et les paramètres du serveur MySQL.
+
+Gardez vos informations de connexion sécurisées et n'hésitez pas à demander de l'aide si nécessaire.
