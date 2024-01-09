@@ -1,18 +1,36 @@
-# Comment lier sont serveur à une base de donnée SQL
-Pour établir une connexion sql avec votre serveur, il faut d'abord modifier le fichier server.cfg.
+---
+sidebar_position: 2
+---
 
-Dans le fichier server.cfg, cherchez la ligne qui commence par "set mysql_connection_string". Cette ligne permet de définir les informations de connexion à la base de données.
+# Connexion à PHPMyAdmin avec une chaîne de connexion MySQL mise à jour
 
-Mettez à jour la valeur de "mysql_connection_string" en fournissant les informations nécessaires, telles que le serveur, la base de données, l'identifiant de l'utilisateur et le mot de passe. Vous pouvez le faire en modifiant la ligne "set mysql_connection_string" pour qu'elle ressemble à ceci:
+Cette page fournit des instructions sur la manière de se connecter à PHPMyAdmin en utilisant une chaîne de connexion MySQL mise à jour, compatible avec `oxmysql` et `mysql-async`.
 
+## Chaîne de Connexion Obsolète
+
+La chaîne de connexion suivante est maintenant obsolète pour `oxmysql` :
+
+```text
 set mysql_connection_string "server=IP_PHP_SANS_PORTS;database=NOM;userid=NOM_UTILISATEUR_PHP;password=MOT_DE_PASSE_PHP"
+```
 
-:::tip Astuce
+Ce format peut ne pas fonctionner avec les dernières versions de `oxmysql` et devrait être mis à jour.
 
-Les valeurs "IP_PHP_SANS_PORTS", "NOM", "NOM_UTILISATEUR_PHP" et "MOT_DE_PASSE_PHP" doivent être remplacées par les informations appropriées que vous trouvez dans le panel (Gestion > Base de données).
+## Chaîne de Connexion Mise à Jour
 
-:::
+Pour la compatibilité avec `oxmysql` et `mysql-async`, utilisez le format de chaîne de connexion suivant :
 
-En suivant ces étapes, vous pourrez établir une connexion sql propre et facile à lire.
+```text
+set mysql_connection_string "mysql://NOM_UTILISATEUR_PHP:MOT_DE_PASSE_PHP@IP_PHP_SANS_PORTS/NOM?charset=utf8mb4"
+```
 
+Remplacez `NOM_UTILISATEUR_PHP` par votre nom d'utilisateur MySQL, `MOT_DE_PASSE_PHP` par votre mot de passe MySQL (assurez-vous qu'il ne contient pas de '@'), `IP_PHP_SANS_PORTS` par l'adresse IP de votre serveur MySQL, et `NOM` par le nom de votre base de données.
 
+## Ressources
+
+Pour plus de conseils, référez-vous aux ressources suivantes :
+
+- Vidéo Exemple : [Connexion à PHPMyAdmin](https://www.twitch.tv/videos/1553873661)
+- Image Exemple : ![Configuration de la Connexion](https://cdn.discordapp.com/attachments/904885146468106280/1016760495103025185/sql_connect.png)
+
+N'oubliez pas de manipuler vos identifiants de base de données de manière sécurisée et de tester la connexion après avoir effectué ces changements.
