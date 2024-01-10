@@ -55,7 +55,6 @@ const config = {
       }),
     ],
   ],
-Docusaurus
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
