@@ -3,6 +3,14 @@ id: home
 title: Bienvenue sur HebergTonServ
 slug: /
 sidebar_position: 1
+description: Découvrez le Centre de Connaissances HebergTonServ, une ressource complète pour tout ce qui concerne l'hébergement de serveurs de jeux et les services associés. Parfait pour les débutants et les administrateurs expérimentés, notre base de connaissances offre des guides, des astuces et des conseils pour une gestion efficace de votre serveur.
+keywords:
+  - HebergTonServ
+  - serveurs de jeux
+  - hébergement
+  - guides
+  - tutoriels
+  - conseils d'experts
 ---
 
 # Centre de Connaissances HebergTonServ

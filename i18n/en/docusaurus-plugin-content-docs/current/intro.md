@@ -3,7 +3,16 @@ id: home
 title: Welcome to HebergTonServ
 slug: /
 sidebar_position: 1
+description: Explore the HebergTonServ Knowledge Center, a comprehensive resource for everything about game server hosting and related services. Perfect for beginners and experienced administrators, our knowledge base offers guides, tips, and advice for efficient management of your server.
+keywords:
+  - HebergTonServ
+  - game servers
+  - hosting
+  - guides
+  - tutorials
+  - expert advice
 ---
+
 
 # HebergTonServ Knowledge Center
 :::tip Welcome to the HebergTonServ Knowledge Center, your dedicated source of information for game server hosting and related services. Whether you're a complete beginner in the world of game servers or an experienced administrator, our knowledge base is here to guide you through the complexities of server hosting, game setup, and much more.
