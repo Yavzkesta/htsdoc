@@ -1,60 +1,59 @@
 ---
 id: home
-title: Bienvenue sur HebergTonServ
+title: Welcome to HebergTonServ
 slug: /
 sidebar_position: 1
 ---
 
-# Centre de Connaissances HebergTonServ
-:::tip Bienvenue dans le Centre de Connaissances HebergTonServ, votre source d'informations dédiée à l'hébergement de serveurs de jeux et aux services connexes. Que vous soyez un débutant total dans le monde des serveurs de jeux ou un administrateur expérimenté, notre base de connaissances est là pour vous guider à travers les complexités de l'hébergement de serveurs, la configuration des jeux, et bien plus encore.
+# HebergTonServ Knowledge Center
+:::tip Welcome to the HebergTonServ Knowledge Center, your dedicated source of information for game server hosting and related services. Whether you're a complete beginner in the world of game servers or an experienced administrator, our knowledge base is here to guide you through the complexities of server hosting, game setup, and much more.
 :::
 
+## Why Our Knowledge Center?
 
-## Pourquoi Notre Centre de Connaissances ?
+- **Up-to-Date Information**: We strive to keep our guides and articles up-to-date with the latest information and best practices.
+- **Diversity of Topics**: From setting up a Minecraft server to managing a VPS, we cover a wide range of subjects.
+- **Expert Advice**: Benefit from tips and tricks from experienced professionals in game server hosting.
 
-- **Informations à jour** : Nous nous efforçons de maintenir nos guides et articles à jour avec les dernières informations et meilleures pratiques.
-- **Diversité des Sujets** : De la mise en place d'un serveur Minecraft à la gestion d'un serveur VPS, nous couvrons une large gamme de sujets.
-- **Conseils d'Experts** : Bénéficiez de conseils et astuces provenant de professionnels expérimentés dans l'hébergement de serveurs de jeux.
+## Explore Our Resources
 
-## Explorer Nos Ressources
+- **Startup Guides**: Perfect for those new to game server hosting.
+- **Advanced Tutorials**: Detailed tutorials for those who want to deepen their technical knowledge.
+- **FAQs**: Answers to frequently asked questions to help you solve common problems.
 
-- **Guides de Démarrage** : Parfait pour ceux qui débutent dans l'hébergement de serveurs de jeux.
-- **Tutoriels Avancés** : Des tutoriels détaillés pour ceux qui souhaitent approfondir leurs connaissances techniques.
-- **FAQs** : Réponses aux questions fréquemment posées pour vous aider à résoudre les problèmes courants.
-
-:::danger Nous espérons que vous trouverez les ressources de notre Centre de Connaissances utiles et informatives. Si vous avez des questions ou besoin d'assistance supplémentaire, n'hésitez pas à contacter notre équipe de support.
+:::danger We hope you find the resources in our Knowledge Center useful and informative. If you have any questions or need additional assistance, don't hesitate to contact our support team.
 
 :::
 
-# Nos Offres de Jeux et Services
+# Our Game Offers and Services
 
-Chez HebergTonServ, nous proposons une gamme variée de serveurs de jeux et de services d'hébergement. Choisissez l'offre qui correspond à vos besoins et commencez votre aventure de jeu sans plus attendre.
+At HebergTonServ, we offer a variety of game servers and hosting services. Choose the offer that suits your needs and start your gaming adventure without delay.
 
-## Serveurs de Jeux
+## Game Servers
 
-Explorez nos différentes offres de serveurs de jeux :
+Explore our different game server offers:
 
-- [Hébergeur FiveM (Serveur GTA RP)](https://hebergtonserv.com/fivem)
-- [Hébergeur Ark](https://hebergtonserv.com/offres/ark) - _Prochainement disponible_
-- [Hébergeur Avorion](https://hebergtonserv.com/offres/avorion)
-- [Hébergement Eco](https://hebergtonserv.com/offres/eco)
-- [Hébergeur Factorio](https://hebergtonserv.com/offres/factorio) - _Prochainement disponible_
-- [Hébergeur Garry's Mod](https://hebergtonserv.com/offres/gmod)
-- [Serveur NovaLife](https://hebergtonserv.com/offres/novalife)
-- [Hébergeur Project Zomboid](https://hebergtonserv.com/offres/projectzomboid)
-- [Hébergeur Sons Of The Forest](https://hebergtonserv.com/offres/sonsoftheforest)
-- [Hébergeur Terraria](https://hebergtonserv.com/offres/terraria) - _Prochainement disponible_
-- [Hébergeur Valheim](https://hebergtonserv.com/offres/valheim)
-- [Hébergeur Vintage Story](https://hebergtonserv.com/offres/vintage)
+- [FiveM Hosting (GTA RP Server)](https://hebergtonserv.com/fivem)
+- [Ark Hosting](https://hebergtonserv.com/offres/ark) - _Coming Soon_
+- [Avorion Hosting](https://hebergtonserv.com/offres/avorion)
+- [Eco Hosting](https://hebergtonserv.com/offres/eco)
+- [Factorio Hosting](https://hebergtonserv.com/offres/factorio) - _Coming Soon_
+- [Garry's Mod Hosting](https://hebergtonserv.com/offres/gmod)
+- [NovaLife Server](https://hebergtonserv.com/offres/novalife)
+- [Project Zomboid Hosting](https://hebergtonserv.com/offres/projectzomboid)
+- [Sons Of The Forest Hosting](https://hebergtonserv.com/offres/sonsoftheforest)
+- [Terraria Hosting](https://hebergtonserv.com/offres/terraria) - _Coming Soon_
+- [Valheim Hosting](https://hebergtonserv.com/offres/valheim)
+- [Vintage Story Hosting](https://hebergtonserv.com/offres/vintage)
 
-## Autres Services d'Hébergement
+## Other Hosting Services
 
-Nous offrons également divers services d'hébergement pour répondre à tous vos besoins :
+We also offer various hosting services to meet all your needs:
 
-- [Hébergement Cloud Bot](https://hebergtonserv.com/offres/bot-hosting)
-- [Hébergement VPS (Serveur Privé Virtuel)](https://hebergtonserv.com/offres/virtual-private-server)
-- [Hébergement Web](https://hebergtonserv.com/offres/web-hosting)
+- [Cloud Bot Hosting](https://hebergtonserv.com/offres/bot-hosting)
+- [VPS Hosting (Virtual Private Server)](https://hebergtonserv.com/offres/virtual-private-server)
+- [Web Hosting](https://hebergtonserv.com/offres/web-hosting)
 
 ---
 
-Nous nous engageons à fournir des solutions d'hébergement de qualité pour les jeux et les services web. N'hésitez pas à explorer nos différentes offres et à choisir celle qui convient le mieux à vos besoins.
+We are committed to providing quality hosting solutions for games and web services. Feel free to

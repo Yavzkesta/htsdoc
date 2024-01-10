@@ -1,45 +1,43 @@
 ---
 sidebar_position: 2
-title: Lister son Serveur FiveM
+title: Listing Your FiveM Server
 
 ---
 
-# Comment Lister son Serveur FiveM
+# How to List Your FiveM Server
 
-Pour lister votre serveur FiveM, il est nécessaire d'effectuer des configurations spécifiques dans le fichier `server.cfg`. Suivez ces étapes pour assurer que votre serveur soit correctement listé et accessible.
+To list your FiveM server, specific configurations need to be made in the `server.cfg` file. Follow these steps to ensure that your server is correctly listed and accessible.
 
+## Basic Configuration
 
-# Configuration de Base
-
-Commencez par ouvrir votre fichier `server.cfg` et ajoutez ou vérifiez les lignes suivantes :
+Start by opening your `server.cfg` file and add or verify the following lines:
 ```cfg
 sv_endpointPrivacy true
-# Cette option assure que certaines informations de votre serveur restent privées.
+# This option ensures that some information about your server remains private.
 ```
 
-:::tip Utilisation de l'IP de Sous-Domaine
-L'IP du serveur peut être celle d'un sous-domaine, comme `Gamex.hebergtonserv.com:leport`.
+:::tip Using a Subdomain IP
+The server's IP can be a subdomain, like `Gamex.hebergtonserv.com:theport`.
 :::
 
-# Configuration Avancée
+## Advanced Configuration
 
-Après avoir configuré la confidentialité de l'endpoint, continuez avec les paramètres avancés :
+After configuring the endpoint privacy, continue with the advanced settings:
 ```cfg
-set sv_useDirectListing true # Active la vue de listing FiveM
-set sv_listingIPOverride "gamex.hebergtonserv.com:votreport"  # Doit correspondre à votre sv_endpoints
-sets sv_projectName "[FR]^1 LSDream FA:nazar_amulet:・^7discord.gg/^147ACRnWSd3" # Nom de votre projet
-sets sv_projectDesc "Old Jersey " # Description de votre projet
-set onesync on # 'on' pour infinity (+64 slots) / 'legacy' pour (-64 slots) # Active OneSync
-set steam_webApiKey none # Clé API Steam (remplacez 'none' par votre clé si nécessaire)
-set sv_licenseKey VOTRE_CLE # Clé de licence FiveM
-sv_maxclients 64 # Nombre maximum de clients sur votre serveur FiveM
+set sv_useDirectListing true # Enables FiveM listing view
+set sv_listingIPOverride "gamex.hebergtonserv.com:yourport"  # Should match your sv_endpoints
+sets sv_projectName "[FR]^1 LSDream FA:nazar_amulet:・^7discord.gg/^147ACRnWSd3" # Name of your project
+sets sv_projectDesc "Old Jersey " # Description of your project
+set onesync on # 'on' for infinity (+64 slots) / 'legacy' for (-64 slots) # Enables OneSync
+set steam_webApiKey none # Steam API Key (replace 'none' with your key if necessary)
+set sv_licenseKey YOUR_KEY # FiveM License Key
+sv_maxclients 64 # Maximum number of clients on your FiveM server
 ```
 
-# Validation des Changements
+## Validating Changes
 
-Une fois ces configurations ajoutées et modifiées, sauvegardez le fichier `server.cfg`. Redémarrez ensuite votre serveur FiveM pour que les changements prennent effet.
+Once these configurations are added and modified, save the `server.cfg` file. Then, restart your FiveM server for the changes to take effect.
 
-Vérifiez que votre serveur apparaît correctement dans la liste des serveurs FiveM et qu'il est accessible aux joueurs.
+Check that your server appears correctly in the FiveM server list and is accessible to players.
 
-
-En suivant ces instructions, votre serveur FiveM devrait être correctement listé et configuré pour offrir une expérience optimale aux joueurs.
+By following these instructions, your FiveM server should be correctly listed and configured to offer an optimal experience for players.
