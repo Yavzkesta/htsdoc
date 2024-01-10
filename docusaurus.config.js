@@ -16,7 +16,7 @@ const config = {
   url: 'https://hebergtonserv.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docs',
+  baseUrl: '/docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -59,12 +59,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/logo.webp',
+      image: 'https://hebergtonserv.com/_ipx/q_70&s_400x300/logo.webp',
       navbar: {
         title: 'HebergTonServ Doc',
         logo: {
           alt: 'HebergTonServ Logo',
-          src: 'img/logo.webp',
+          src: 'https://hebergtonserv.com/_ipx/q_70&s_400x300/logo.webp',
         },
         items: [
           {
