@@ -1,0 +1,103 @@
+---
+sidebar_position: 6
+title: Configuration de TXAdmin avec Push Serveur
+---
+
+# Configuration de TXAdmin avec Push Serveur sur Hebergtonserv.com
+
+Ce guide détaille les étapes pour configurer TXAdmin avec la méthode "Push Server" sur un serveur commandé via `hebergtonserv.com`.
+
+## Configuration Initiale de TXAdmin
+
+1. Connectez-vous à votre serveur depuis votre panel sur `hebergtonserv.com`.
+
+2. Vérifiez que l'option TXAdmin est bien paramétrée dans **Configuration -> Paramétrage de Démarrage**.
+
+   ![Paramétrage de Démarrage](https://i.imgur.com/cUZs0bw.png)
+
+3. Activez l'option TXAdmin.
+
+   ![Activer TXAdmin](https://i.imgur.com/zfnh5c7.png)
+
+4. Démarrez votre serveur depuis la console.
+
+   ![Démarrage Serveur](https://i.imgur.com/oVWbPvu.png)
+   ![Console Serveur](https://i.imgur.com/QPzdwnt.png)
+
+5. Un lien et un code PIN s'afficheront dans la console.
+
+   ![Lien TXAdmin](https://i.imgur.com/KKch3fi.png)
+
+6. Suivez le lien, entrez le code PIN et "Link Account".
+
+   ![Link Account](https://i.imgur.com/i3OQDgR.png)
+
+7. Autorisez TXAdmin à accéder à votre compte CFX.
+
+   ![Autorisation CFX](https://i.imgur.com/Y1wRJuA.png)
+
+8. Créez votre mot de passe et cochez les TOS, puis "Create Master Account".
+
+   ![Création Compte](https://i.imgur.com/mWQaPs1.png)
+
+## Déploiement de la Recette
+
+9. Cliquez sur "Next" pour commencer le déploiement.
+
+   ![Début Déploiement](https://i.imgur.com/H4yR2AH.png)
+
+10. Entrez le nom de votre serveur et cliquez sur "Next".
+
+    ![Nom du Serveur](https://i.imgur.com/MmtaHft.png)
+
+11. Pour "Deployment Type", sélectionnez "Popular Recipes RECOMMENDED".
+
+    ![Type de Déploiement](https://i.imgur.com/dyb8qim.png)
+
+12. Sélectionnez la template souhaitée, par exemple "esx legacy".
+
+    ![Sélection Template](https://i.imgur.com/s7cDiQl.png)
+
+13. Nettoyez la racine de votre serveur en supprimant le dossier `ressource` et `server.cfg`.
+
+    ![Nettoyage Racine](https://i.imgur.com/d1g73P1.png)
+
+14. Retournez sur TXAdmin pour finir le déploiement. Cliquez sur "Save" pour l'étape "Data location".
+
+    ![Sauvegarde Data location](https://i.imgur.com/IyWElyF.png)
+
+15. Cliquez sur "Go to recipe deployer" et suivez les étapes.
+
+    ![Recipe Deployer](https://i.imgur.com/yd0u66O.png)
+
+16. Entrez votre licence CFX et configurez votre base de données selon le tutoriel de création de base de données.
+
+    ![Configuration BDD](https://i.imgur.com/6tsPLl2.png)
+
+17. Cliquez sur "Run Recipe".
+
+    ![Run Recipe](https://i.imgur.com/XvZdNj9.png)
+
+18. Une fois le déploiement terminé, cliquez sur "Save & Run Server".
+
+    ![Sauvegarde et Lancement](https://i.imgur.com/ksqdVVu.png)
+
+## Nettoyage Final et Démarrage
+
+19. Arrêtez votre serveur depuis le panel Hebergtonserv.
+
+    ![Arrêt Serveur](https://i.imgur.com/4fRuCdk.png)
+
+20. Déplacez les fichiers nécessaires depuis `txData` vers la racine de votre serveur.
+
+    ![Déplacement Fichiers](https://i.imgur.com/z6LBFJP.png)
+
+21. Supprimez le dossier inutile dans `txData`.
+
+    ![Suppression Dossier](https://i.imgur.com/j7Jpzgv.gif)
+
+22. Redémarrez votre serveur et accédez à votre panel TXAdmin pour finaliser la configuration.
+
+    ![Redémarrage Serveur](https://i.imgur.com/ak1ISF6.gif)
+
+Votre serveur est maintenant prêt et configuré avec TXAdmin en utilisant la méthode "Push Serveur".
