@@ -1,0 +1,45 @@
+---
+sidebar_position: 2
+title: Lister son Serveur FiveM
+
+---
+
+# Comment Lister son Serveur FiveM
+
+Pour lister votre serveur FiveM, il est nécessaire d'effectuer des configurations spécifiques dans le fichier `server.cfg`. Suivez ces étapes pour assurer que votre serveur soit correctement listé et accessible.
+
+
+# Configuration de Base
+
+Commencez par ouvrir votre fichier `server.cfg` et ajoutez ou vérifiez les lignes suivantes :
+```cfg
+sv_endpointPrivacy true
+# Cette option assure que certaines informations de votre serveur restent privées.
+```
+
+:::tip Utilisation de l'IP de Sous-Domaine
+L'IP du serveur peut être celle d'un sous-domaine, comme `Gamex.hebergtonserv.com:leport`.
+:::
+
+# Configuration Avancée
+
+Après avoir configuré la confidentialité de l'endpoint, continuez avec les paramètres avancés :
+```cfg
+set sv_useDirectListing true # Active la vue de listing FiveM
+set sv_listingIPOverride "gamex.hebergtonserv.com:votreport"  # Doit correspondre à votre sv_endpoints
+sets sv_projectName "[FR]^1 LSDream FA:nazar_amulet:・^7discord.gg/^147ACRnWSd3" # Nom de votre projet
+sets sv_projectDesc "Old Jersey " # Description de votre projet
+set onesync on # 'on' pour infinity (+64 slots) / 'legacy' pour (-64 slots) # Active OneSync
+set steam_webApiKey none # Clé API Steam (remplacez 'none' par votre clé si nécessaire)
+set sv_licenseKey VOTRE_CLE # Clé de licence FiveM
+sv_maxclients 64 # Nombre maximum de clients sur votre serveur FiveM
+```
+
+# Validation des Changements
+
+Une fois ces configurations ajoutées et modifiées, sauvegardez le fichier `server.cfg`. Redémarrez ensuite votre serveur FiveM pour que les changements prennent effet.
+
+Vérifiez que votre serveur apparaît correctement dans la liste des serveurs FiveM et qu'il est accessible aux joueurs.
+
+
+En suivant ces instructions, votre serveur FiveM devrait être correctement listé et configuré pour offrir une expérience optimale aux joueurs.
