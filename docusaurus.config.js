@@ -11,6 +11,7 @@ const config = {
   title: 'Hebergtonserv Knowledge',
   tagline: 'Hebergtonserv Knowledge',
   favicon: 'img/favicon.ico',
+  staticDirectories: ['public', 'static'],
 
   // Set the production url of your site here
   url: 'https://hebergtonserv.com',
